@@ -1,15 +1,15 @@
 {
-  "name": "honeypot",
+  "name": "tonscamtester",
   "version": "1.0.0",
-  "description": "",
+  "description": "Powerful tool to detect scam entities (Jetton, NFT, etc) by emulating smart contracts execution in a remote TON network.",
   "main": "index.js",
   "scripts": {
     "start": "npx ts-node index.ts",
     "tsc": "npx tsc -p tsconfig.json"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "BeyCoder",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
     "@dedust/sdk": "^0.8.7",
     "@orbs-network/ton-access": "^2.3.3",
