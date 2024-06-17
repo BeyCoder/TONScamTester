@@ -27,7 +27,7 @@ export class ScamTester {
     public async run(entity: TestEntity) {
         const testCases = this.getTestCases(entity);
         if (testCases.length == 0) {
-            throw new Error("Test cases are not found! Hint: maybe you forget to loadModules!")
+            throw new Error("Test cases are not found! Hint: maybe you forgot to loadModules!")
         }
         const testResults: TestResult[]|null = [];
         for (const testCase of testCases) {
